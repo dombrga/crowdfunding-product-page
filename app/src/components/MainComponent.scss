@@ -1,0 +1,70 @@
+$darkCyan: hsl(176, 72%, 28%);
+$lightCyan: hsl(176, 50%, 47%);
+
+main {
+  // text-align: center;
+  padding: 0 1.5rem;
+
+  position: relative;
+  top: -4rem;
+
+  @media (min-width: 800px) {
+    padding: 0 13rem;
+  }
+}
+
+.logo__mastercraft {
+  transform: translateY(-50%);
+}
+
+.article__main {
+  padding: 0 1.5rem 2rem;
+
+  .main__desc {
+    margin: 1.5rem 0 2rem;
+  }
+
+  
+}
+
+.main__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .btn {
+    background-color: $lightCyan;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    border: none;
+    border-radius: 1.75rem;
+    padding: 0 2rem;
+    height: 56px;
+  }
+}
+
+.article__pt {
+  padding-top: 2rem;
+}
+
+.first {
+  text-align: center;
+}
+
+
+.stat__hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgb(214, 213, 213);
+  width: 100px;
+  // width: 20%;
+
+  @media (min-width: 800px) {
+    transform: rotate(90deg);
+    width: 50px;
+  }
+}
