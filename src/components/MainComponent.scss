@@ -1,0 +1,104 @@
+$darkCyan: hsl(176, 72%, 28%);
+$lightCyan: hsl(176, 50%, 47%);
+$textColor: hsl(0, 0%, 48%);
+
+main {
+  // text-align: center;
+  padding: 0 1.5rem;
+
+  position: relative;
+  top: -4rem;
+
+  @media (min-width: 800px) {
+    // padding: 0 13rem;
+    margin: 0 auto;
+    width: 800px;
+  }
+}
+
+.logo__mastercraft {
+  transform: translateY(-50%);
+}
+
+.article__main {
+  padding: 0 1.5rem 2rem;
+
+  .main__desc {
+    margin: 1.5rem 0 2rem;
+  }
+
+  
+}
+
+.main__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.bookmark-container {
+  button {
+    background-color: transparent;
+    div {
+      display: none;
+    }
+  }
+
+  @media (min-width: 800px) {
+    svg {
+      transform: translateX(-1rem);
+    }
+
+    button {
+      background-color: #f0f0f0;
+      color: $textColor;
+      font-weight: 700;
+      width: 170px;
+      border-radius: 2rem;
+      display: flex;
+      align-items: center;
+
+      div {
+        display: block;
+      }
+    }
+  }
+}
+
+.bookmarked {
+  path {
+    fill: #ffff;
+  }
+  circle {
+    fill: $darkCyan;
+  }
+  
+  div {
+    color: $darkCyan;
+
+  }
+}
+
+.article__pt {
+  padding-top: 2rem;
+}
+
+.first {
+  text-align: center;
+}
+
+
+.stat__hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgb(214, 213, 213);
+  width: 100px;
+  // width: 20%;
+
+  @media (min-width: 800px) {
+    transform: rotate(90deg);
+    width: 50px;
+  }
+}

@@ -1,0 +1,55 @@
+.top-header
+// ,
+//  #root 
+{
+  height: 300px;
+  background: url(../../assets/image-hero-mobile.jpg) no-repeat ;
+  background-size: 100% 300px;
+  background-position: left top;
+  padding: 2rem;
+
+  @media (min-width: 800px) {
+    height: 300px;
+    background: url(../../assets/image-hero-desktop.jpg) no-repeat ;
+    background-size: 100% 300px;
+  }
+}
+
+.top-header {
+  // margin-bottom: 14rem;
+}
+
+.top-header_child {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .nav-logo,
+  .nav {
+    z-index: 11;
+  }
+
+  button {
+    background: none;
+    border: none;
+  }
+
+  .desktop { display: none; }
+
+
+  @media (min-width: 800px) {
+    .mobile { display: none; }
+    .desktop { display: inline-block; }
+  }
+}
+
+.links a {
+  color: #ffff;
+  padding-left: 1rem;
+}
+
+// button {
+//   background: none;
+//   border: none;
+// }

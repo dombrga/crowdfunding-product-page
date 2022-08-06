@@ -1,0 +1,75 @@
+$darkCyan: hsl(176, 72%, 28%);
+$lightCyan: hsl(176, 50%, 47%);
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Commissioner', sans-serif;
+  /* word-wrap: break-word; */
+  /* word-break: keep-all; */
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.burger,
+.links a,
+.nav-logo,
+button {
+  cursor: pointer;
+}
+
+.secondary-text {
+  color: rgb(151, 150, 150);
+  font-weight: 500;
+}
+
+.btn {
+  background-color: $lightCyan;
+  color: #ffff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border: none;
+  border-radius: 1.75rem;
+  padding: 0 2rem;
+  height: 56px;
+}
+
+.btn-hover-darken:hover {
+  background-color: $darkCyan;
+}
+
+.btn-click-move:active {
+  transform: translate(2px, 2px);
+}
+.btn-click-move:disabled {
+  transform: translate(0, 0);
+}
+
+.blurred {
+  opacity: .45;
+
+  button:hover {
+    background-color: $lightCyan;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,46 @@
+// .overlay {
+//   padding: 0 2rem;
+//   position: fixed;
+//   top:0;
+//   left: 0;
+//   right: 0;
+//   bottom:0;
+//   background-color:rgba(0, 0, 0, 0.60);
+//   background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC) repeat scroll transparent\9; /* ie fallback png background image */
+//   z-index: 10;
+
+//   .menu {
+//     position: relative;
+//     top: 5rem;
+//     background-color: #ffff;
+//     border-radius: .5rem;
+  
+//   }
+  
+//   @media (min-width: 800px) {
+//     display: none;
+//   }
+// }
+
+.menu {
+  position: relative;
+  top: 5rem;
+  background-color: #ffff;
+  border-radius: .5rem;
+
+  // span,
+  a {
+    display: block;
+    padding: 1.5rem;
+    // font-size: 50%;
+    // word-break: break-all;
+    word-wrap: break-word;
+    // overflow-wrap: break-word;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid rgb(207, 207, 207);
+  }
+}
+
