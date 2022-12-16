@@ -1,7 +1,7 @@
 function CyanButton({ btnText, clickHandler, disabled }) {
 
   return (
-    <button className='btn btn-hover-darken btn-click-move' type='button'
+    <button className='btn btn-back btn-hover-darken btn-click-move' type='button'
       onClick={clickHandler}
       disabled={disabled}
     >

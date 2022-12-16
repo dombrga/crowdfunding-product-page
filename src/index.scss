@@ -46,8 +46,13 @@ button {
   letter-spacing: 1.5px;
   border: none;
   border-radius: 1.75rem;
-  padding: 0 2rem;
-  height: 56px;
+  padding: 0rem 2rem;
+  height: 50px;
+  // width: 200px;
+}
+
+.btn-back {
+  font-size: .8rem;
 }
 
 .btn-hover-darken:hover {

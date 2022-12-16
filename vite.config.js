@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/crowdfunding-product-page/',
   plugins: [react()],
   resolve: {
     alias: {

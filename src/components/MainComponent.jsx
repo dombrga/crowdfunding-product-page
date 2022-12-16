@@ -24,7 +24,7 @@ function MainComponent({ }) {
     setIsBookmarked(prev => !prev)
   }
 
-  console.log('main component rerendered!')
+  // console.log('main component rerendered!')
 
   return (
     <main>

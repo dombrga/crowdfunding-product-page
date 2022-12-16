@@ -35,11 +35,12 @@ main {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1rem 0rem;
 }
 
 .bookmark-container {
   button {
+    padding: 0;
     background-color: transparent;
     div {
       display: none;
@@ -48,7 +49,9 @@ main {
 
   @media (min-width: 800px) {
     svg {
-      transform: translateX(-1rem);
+      // transform: translateX(-1rem);
+      position: relative;
+      left: -1rem;
     }
 
     button {
